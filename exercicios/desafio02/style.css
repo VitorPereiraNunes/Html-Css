@@ -1,35 +1,85 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 
 header{
     background-color: black;
-    height: 150px;
+    text-align: center;
+    color: white;
 }
 header > h1{
-   
-    color: white;
-    text-align: center;
+    font-variant: small-caps;
+    padding-top: 50px;
 }
-header > a{
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
     color: white;
-    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family:var(--font3);
+    font-size: 3.0vw;
+
 }
 
 .branco{
     background-color: white;
     background-attachment: fixed;
+
+
+
 }
 
 #joaninha{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 #cartas{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
+.imagens > p{
+    background-color: rgba(0, 0, 0, 0.447);
+    display: inline-block;
+    padding: 6px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
 
