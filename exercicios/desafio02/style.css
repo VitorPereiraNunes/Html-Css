@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+
+header{
+    background-color: black;
+    height: 150px;
+}
+header > h1{
+   
+    color: white;
+    text-align: center;
+}
+header > a{
+    color: white;
+    text-align: center;
+}
+
+.branco{
+    background-color: white;
+    background-attachment: fixed;
+}
+
+#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cartas{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+}
